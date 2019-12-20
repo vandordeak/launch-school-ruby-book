@@ -2,4 +2,7 @@
 
 number = 0.0
 puts "Type in a float"
-number = gets.chomp
+number = gets
+number = number.to_f
+number = number ** 2
+puts number
