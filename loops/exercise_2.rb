@@ -1,1 +1,7 @@
 # Write a while loop that takes input from the user, performs an action, and only stops when the user types "STOP". Each loop can get info from the user.
+
+puts "You must write STOP to stop this process!"
+
+user_input = gets.chomp while user_input != "STOP"
+
+
